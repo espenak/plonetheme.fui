@@ -577,3 +577,13 @@ fieldset#relatedItemBox a {
 fieldset#relatedItemBox a:hover {
 	text-decoration: underline;
 }
+
+
+/*********************************************************
+ *
+ * Related items
+ *
+ *********************************************************/
+.kupu {
+	font-size: 1.2em;
+}
