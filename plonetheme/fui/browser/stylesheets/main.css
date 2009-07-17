@@ -365,7 +365,7 @@ blockquote, p.discreet {
 
 /*********************************************************
  *
- * Search results view
+ * Search results and standard view
  *
  *********************************************************/
 
@@ -478,4 +478,28 @@ dl.searchResults dt {
 /* Technology links (build with Plone, Valid XHTML....) */
 #portal-colophon {
 	display: none;
+}
+
+
+
+/*********************************************************
+ *
+ * Live search
+ *
+ *********************************************************/
+
+.LSResult {
+	position: absolute;
+	top: 130px;
+	right: 50px;
+	background-color: #ddd;
+	border: 3px solid #000;
+}
+
+.LSResult fieldset {
+	border: none;
+}
+
+.LSResult legend {
+	background-color: transparent;
 }
