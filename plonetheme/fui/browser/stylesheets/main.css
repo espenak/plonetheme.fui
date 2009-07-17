@@ -274,13 +274,16 @@ dl#document-toc dt {
 	margin: 0;
 	font-size: 1.0em;
 }
+dl#document-toc ol {
+	margin: 0 0 0 20px;
+	padding: 0;
+}
 dl#document-toc ol.TOC1Digit {
-	margin: 0;
-	padding: 0 0 0 30px;
+	margin: 0 0 0 5px;
+	padding: 0;
 }
 dl#document-toc li {
 	padding: 4px 4px 4px 0;
-	font-size: 0.9em;
 }
 
 
