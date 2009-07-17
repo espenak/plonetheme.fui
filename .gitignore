@@ -3,3 +3,4 @@
 .*.swp
 *~
 plonetheme.fui.egg-info/
+dist/
