@@ -6,6 +6,9 @@ body {
 	font-size: 0.8em;
 	margin: 0;
 	padding: 20px 8% 20px 8%;
+	/*background-image: url("++resource++plonetheme.fui.images/background.png");
+	background-repeat: no-repeat;
+	background-position: 90% 30px;*/
 }
 
 
@@ -21,6 +24,10 @@ a {
 }*/
 a img {
 	border: none;
+}
+
+
+div#visual-portal-wrapper {
 }
 
 
@@ -494,6 +501,7 @@ dl.searchResults dt {
 	right: 50px;
 	background-color: #ddd;
 	border: 3px solid #000;
+	display: none;
 }
 
 .LSResult fieldset {
