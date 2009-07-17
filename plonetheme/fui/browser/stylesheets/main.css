@@ -220,6 +220,13 @@ ul.navTreeLevel0 {
 	color: #333;
 }
 
+#portal-column-content dd {
+	padding: 0;
+	margin: 0 0 0 25px;
+	font-size: 0.9em;
+	color: #333;
+}
+
 #content h1.documentFirstHeading {
 	font-family: "Georgia", serif;
 	font-weight: normal;
@@ -356,6 +363,29 @@ blockquote, p.discreet {
 }
 
 
+/*********************************************************
+ *
+ * Search results view
+ *
+ *********************************************************/
+
+dl.searchResults {
+}
+
+dl.searchResults dt {
+}
+
+#portal-column-content dl.searchResults dd, #content dd span.description {
+	padding: 0 0 3px 0;
+	margin: 0 0 30px 0;
+	border-bottom: 1px dashed #ccc;
+}
+
+#content dd span.description {
+	margin-left: -25px;
+	display: block;
+}
+
 
 /*********************************************************
  *
@@ -367,7 +397,7 @@ blockquote, p.discreet {
 	width: 250px;
 	background-color: #eee;
 	border: 1px solid #666;
-	margin: 0 30px 30px 0;
+	margin: 15px 30px 15px 0;
 	display: block;
 	float: left;
 }
