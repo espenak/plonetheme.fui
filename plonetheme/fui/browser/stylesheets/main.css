@@ -534,3 +534,35 @@ div.discussion h3 a {
 	color: #666;
 	font-size: 1.0em;
 }
+
+
+/*********************************************************
+ *
+ * Related items
+ *
+ *********************************************************/
+
+div.relatedItems {
+}
+
+fieldset#relatedItemBox {
+	border: 1px solid #ccc;
+}
+
+fieldset#relatedItemBox ul {
+	margin: 0;
+	margin: 0;
+	padding: 0;
+}
+
+fieldset#relatedItemBox legend {
+	color: #888;
+}
+
+fieldset#relatedItemBox a {
+	color: #999;
+	font-size: 0.9em;
+}
+fieldset#relatedItemBox a:hover {
+	text-decoration: underline;
+}
