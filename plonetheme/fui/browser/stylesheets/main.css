@@ -1,0 +1,451 @@
+/* Stylesheet for the 'FUI theme' Plone theme */
+
+body {
+	/*font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;*/
+	font-family: "Verdana", sans-serif;
+	font-size: 0.8em;
+	margin: 0;
+	padding: 20px 8% 20px 8%;
+}
+
+
+a {
+	color: #005580;
+	text-decoration: none;
+}
+/*a:visited {
+	color: #6A0080;
+}*/
+/*a:hover {
+	color: #007EBD;
+}*/
+a img {
+	border: none;
+}
+
+
+
+
+/*******************************************************
+ *
+ * Header
+ *
+ *******************************************************/
+
+#portal-top {
+	font-size: 0.9em;
+}
+
+#portal-header {
+	list-style: none;
+}
+
+ul#portal-siteactions {
+	margin: 0;
+	list-style: none;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+	text-align: right;
+}
+ul#portal-siteactions li {
+	padding-left: 30px;
+	display: inline;
+}
+ul#portal-siteactions a {
+	color: #999;
+}
+ul#portal-siteactions a:hover {
+	text-decoration: underline;
+}
+
+
+div#portal-searchbox {
+	float: right;
+	margin: 20px 20px 0 0;
+}
+
+a#portal-logo img {
+	display: block;
+	margin: 20px;
+}
+
+
+
+ul#portal-globalnav, ul#portal-personaltools {
+	margin: 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	list-style: none;
+	background-color: #111;
+}
+ul#portal-globalnav {
+	float: left;
+	padding-left: 20px;
+}
+ul#portal-personaltools {
+	text-align: right;
+	padding-right: 20px;
+}
+
+ul#portal-globalnav a, ul#portal-personaltools a {
+	color: #444;
+}
+ul#portal-globalnav a:hover, ul#portal-personaltools a:hover {
+	text-decoration: underline;
+}
+
+ul#portal-globalnav li, ul#portal-personaltools li {
+	display: inline;
+}
+ul#portal-globalnav li {
+	padding-right: 30px;
+}
+ul#portal-personaltools li {
+	padding-left: 30px;
+}
+
+div#portal-breadcrumbs {
+	border-top: 1px solid #000;
+	background-color: #eee;
+	border-bottom: 1px dashed #777;
+	padding: 5px;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	padding-left: 20px;
+}
+
+
+
+
+/******************************************************
+ *
+ * Sidebars
+ *
+ ******************************************************/
+
+#visual-portal-wrapper {
+}
+
+table#portal-columns {
+	border-style: solid;
+	border-color: #ccc;
+	border-width: 0 1px 1px 1px;
+}
+
+
+dl.portlet {
+	margin-bottom: 30px;
+}
+
+dl.portlet dt.portletHeader {
+	font-size: 1.2em;
+	margin-bottom: 15px;
+}
+dl.portlet dt.portletHeader a {
+	color: #444;
+}
+
+
+dl.portlet dd.portletItem {
+	margin: 0 0 0 0;
+	padding: 0;
+}
+dl.portlet dd.odd {
+}
+dl.portlet dd.even {
+}
+dl.portlet dd.portletItem a {
+}
+
+
+ul.navTree {
+	margin: 0 0 0 15px;
+	padding: 0;
+}
+
+ul.navTreeLevel0 {
+	margin-left: 0;
+	padding: 0;
+}
+
+#portal-column-one ul.navTree a.state-external {
+	border: 1px solid #fff;
+}
+
+#portal-column-two ul.navTree a.state-external {
+	border: 1px solid #eee;
+}
+
+
+
+#portal-column-one {
+	font-size: 0.9em;
+	width: 150px;
+	padding: 0;
+	padding: 20px 0 20px 20px;
+	border-left: 1px solid #ccc;
+}
+
+#portal-column-one .portlet {
+}
+
+
+#portal-column-two {
+	padding: 20px 20px 20px 20px;
+	background-color: #eee;
+	font-size: 0.9em;
+	border-left: 1px dashed #777;
+
+}
+
+
+
+/*********************************************************
+ *
+ * Main content
+ *
+ *********************************************************/
+
+#portal-column-content {
+	margin: 0;
+	padding: 20px;
+}
+
+#content {
+	margin: 0;
+	padding: 0;
+}
+
+#content a:hover {
+	color: #333;
+}
+
+#content h1.documentFirstHeading {
+	font-family: "Georgia", serif;
+	font-weight: normal;
+	color: #00293D;
+	font-size: 2.8em;
+	margin: 0 0 20px 0;
+	padding: 0;
+}
+
+#content h2 {
+	font-family: "Georgia", serif;
+	font-weight: normal;
+	color: #333;
+	font-size: 2.0em;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	padding: 0;
+}
+
+
+#content p.documentDescription {
+	font-style: italic;
+}
+
+
+/* TOC */
+dl#document-toc {
+	background-color: #eee;
+	border: 1px solid #666;
+	width: 200px;
+	float: right;
+	margin: 10px 0 20px 20px;
+}
+dl#document-toc dt {
+	background-color: #ccc;
+	border-bottom: 1px solid #666;
+	padding: 1px 6px 1px 6px;
+	margin: 0;
+	font-size: 1.0em;
+}
+dl#document-toc ol.TOC1Digit {
+	margin: 0;
+	padding: 0 0 0 30px;
+}
+dl#document-toc li {
+	padding: 4px 4px 4px 0;
+	font-size: 0.9em;
+}
+
+
+
+/* Event details */
+div.eventDetails {
+	margin: 10px 0 10px 0;
+}
+div.eventDetails table {
+	border: 1px solid #666;
+}
+div.eventDetails td, div.eventDetails th {
+	border: 1px solid #666;
+}
+div.eventDetails td ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+blockquote {
+	border-left: 6px solid #eee;
+	padding-left: 10px;
+	margin: 10px 0 10px 20px;
+}
+
+blockquote, p.discreet {
+	color: #333;
+	font-size: 0.9em;
+}
+
+
+
+/* Images */
+#content img.image-right {
+	border: 1px solid #000;
+	margin: 10px;
+	float: right;
+}
+
+
+
+/* Tables */
+
+#content table {
+	border-spacing: 0;
+	border-collapse: collapse;
+	font-size: 0.9em;
+	color: #333;
+	margin: 10px 0 10px 0;
+}
+
+#content table td, #content table th {
+	padding: 5px;
+}
+
+#content table.grid, #content table.listing {
+	border: 1px solid #666;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+#content table.grid td, #content table.grid th, #content table.listing th {
+	border: 1px solid #666;
+}
+
+#content table.listing td {
+	border-left: 1px solid #666;
+	border-right: 1px solid #666;
+}
+
+#content table.grid th, #content table.vertical th, #content table.listing th{
+	background-color: #eee;
+	font-weight: normal;
+	font-style: italic;
+}
+
+#content table.grid th {
+	border-bottom: 3px solid #666;
+}
+
+#content table.vertical {
+	border-bottom: 3px solid #666;
+	border-top: 3px solid #666;
+}
+
+
+
+/*********************************************************
+ *
+ * Summary view
+ *
+ *********************************************************/
+
+#content div.tileItem {
+	width: 250px;
+	background-color: #eee;
+	border: 1px solid #666;
+	margin: 0 30px 30px 0;
+	display: block;
+	float: left;
+}
+
+#content h2.tileHeadline {
+	font-size: 1.0em;
+	font-family: "Verdana", sans-serif;
+	background-color: #ccc;
+	border-bottom: 1px solid #666;
+	padding: 1px 6px 1px 6px;
+	margin: 0;
+	font-weight: normal;
+	height: 2.6em;
+}
+
+#content h2.tileHeadline a{
+	color: #333;
+}
+
+#content p.tileBody {
+	padding: 6px;
+	margin: 0;
+	font-size: 0.9em;
+	height: 2.8em;
+	overflow: hidden;
+}
+
+#content p.tileFooter {
+	padding: 6px;
+	margin: 0;
+}
+
+
+/*********************************************************
+ *
+ * Document actions
+ *
+ *********************************************************/
+
+#content div.documentActions {
+	font-size: 0.9em;
+	margin-top: 20px;
+}
+
+#content div.documentActions a {
+	color: #999;
+}
+#content div.documentActions a:hover {
+	color: #999;
+	text-decoration: underline;
+}
+
+#content div.documentActions ul{
+	margin: 0;
+	list-style: none;
+	border-top: 1px solid #ccc;
+	padding-bottom: 10px;
+	text-align: right;
+}
+#content div.documentActions li{
+	padding-left: 30px;
+	display: inline;
+}
+
+
+
+/*********************************************************
+ *
+ * Footer
+ *
+ *********************************************************/
+
+/* The part with plone copyright */
+#portal-footer {
+	display: none;
+}
+
+/* Technology links (build with Plone, Valid XHTML....) */
+#portal-colophon {
+	display: none;
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<import-steps>
+  <import-step id="plonetheme.fui.various"
+               version="20090717-01"
+               handler="plonetheme.fui.setuphandlers.setupVarious"
+               title="FUI theme: miscellaneous import steps">
+    <dependency step="skins" />
+    Various import steps that are not handled by GS import/export
+    handlers.
+  </import-step>
+</import-steps>
