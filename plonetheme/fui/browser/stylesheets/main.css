@@ -503,3 +503,34 @@ dl.searchResults dt {
 .LSResult legend {
 	background-color: transparent;
 }
+
+
+
+/*********************************************************
+ *
+ * Comments
+ *
+ *********************************************************/
+
+div.discussion {
+	margin-top: 30px;
+}
+
+div.discussion div.comment {
+	background-color: #fff;
+	/* border: 1px solid #ccc; */
+	border: none;
+	color: #666;
+	font-size: 0.9em;
+	border-bottom: 1px dashed #ccc;
+}
+
+div.discussion h3 {
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+div.discussion h3 a {
+	color: #666;
+	font-size: 1.0em;
+}
