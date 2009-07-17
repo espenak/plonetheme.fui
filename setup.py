@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.1'
+version = '1.2'
 
 setup(name='plonetheme.fui',
       version=version,
@@ -16,7 +16,7 @@ setup(name='plonetheme.fui',
       keywords='web zope plone theme',
       author='Espen A. Kristiansen',
       author_email='post@espenak.net',
-      url='http://espenak.net',
+      url='http://github.com/espenak/plonetheme.fui',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['plonetheme'],
