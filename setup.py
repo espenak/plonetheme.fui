@@ -6,8 +6,7 @@ version = '1.0'
 setup(name='plonetheme.fui',
       version=version,
       description="A Plone 3.0 theme for FUI",
-      long_description=open("README.txt").read() + "\n" +
-                       open(os.path.join("docs", "HISTORY.txt")).read(),
+      long_description=open("README.rst").read(),
       # Get more strings from http://www.python.org/pypi?%3Aaction=list_classifiers
       classifiers=[
         "Framework :: Plone",
