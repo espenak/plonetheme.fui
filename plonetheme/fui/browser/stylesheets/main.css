@@ -647,3 +647,26 @@ div.listingBar a:hover {
 div.listingBar {
 	text-align: right;
 }
+
+
+
+/*********************************************************
+ *
+ * info boxes
+ *
+ *********************************************************/
+
+#portal-column-content dl.info {
+	border: 1px solid #555;
+	background-color: #ffffee;
+	padding: 5px;
+}
+
+#portal-column-content dl.info dt {
+	margin-bottom: 5px;
+}
+
+#portal-column-content dl.info dd {
+	margin: 0;
+	padding: 0;
+}
