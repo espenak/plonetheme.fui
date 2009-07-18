@@ -581,9 +581,19 @@ fieldset#relatedItemBox a:hover {
 
 /*********************************************************
  *
- * Related items
+ * Admin interface
  *
  *********************************************************/
+
+div.documentEditable #region-content {
+	border: none;
+	margin-top: 20px;
+}
+
+div.documentEditable .contentActions {
+	border-bottom: 1px solid green;
+}
+
 .kupu {
 	font-size: 1.2em;
 }
