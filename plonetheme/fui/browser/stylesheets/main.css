@@ -630,3 +630,25 @@ div.documentEditable .contentActions {
 .kupu {
 	font-size: 1.2em;
 }
+
+
+
+/*********************************************************
+ *
+ * Previous / Next navigation
+ *
+ *********************************************************/
+
+div.listingBar a {
+	padding: 2px;
+	color: #999;
+	font-size: 0.9em;
+	margin-left: 20px;
+}
+div.listingBar a:hover {
+	text-decoration: underline;
+}
+
+div.listingBar {
+	text-align: right;
+}
