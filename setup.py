@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.2'
+version = '1.4'
 
 setup(name='plonetheme.fui',
       version=version,
@@ -36,4 +36,4 @@ setup(name='plonetheme.fui',
       paster_plugins.txt = setuptools.command.egg_info:write_arg
       """,
       paster_plugins = ["ZopeSkel"],
-      )
+)
