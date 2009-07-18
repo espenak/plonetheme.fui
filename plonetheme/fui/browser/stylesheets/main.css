@@ -433,18 +433,27 @@ dl.searchResults dt {
 
 #content div.tileItem {
 	width: 250px;
-	background-color: #eee;
-	border: 1px solid #666;
+	background-color: #fff;
 	margin: 15px 30px 15px 0;
 	display: block;
 	float: left;
+	border-style: solid;
+	border-color: #fff;
+	border-width: 0 1px 1px 1px;
+}
+
+#content div.tileItem:hover {
+	border-style: solid;
+	border-color: #ccc;
+	border-width: 0 1px 1px 1px;
 }
 
 #content h2.tileHeadline {
 	font-size: 1.0em;
 	font-family: "Verdana", sans-serif;
-	background-color: #ccc;
-	border-bottom: 1px solid #666;
+	background-color: #eee;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #ccc;
 	padding: 1px 6px 1px 6px;
 	margin: 0;
 	font-weight: normal;
