@@ -31,6 +31,10 @@ div#visual-portal-wrapper {
 }
 
 
+span.visualHighlight {
+	background-color: #ffffee;
+}
+
 
 
 /*******************************************************
@@ -353,7 +357,7 @@ div.eventDetails td ul {
 
 /* Tables */
 
-#content table {
+#content table, table.listing {
 	border-spacing: 0;
 	border-collapse: collapse;
 	font-size: 0.9em;
@@ -361,27 +365,28 @@ div.eventDetails td ul {
 	margin: 10px 0 10px 0;
 }
 
-#content table td, #content table th {
+#content table td, #content table th, table.listing td, table.listing th {
 	padding: 5px;
 }
 
-#content table.grid, #content table.listing {
+#content table.grid, table.listing {
 	border: 1px solid #666;
 }
 
 
-#content table.grid td, #content table.grid th, #content table.listing th {
+#content table.grid td, #content table.grid th, table.listing td, table.listing th  {
 	border: 1px solid #666;
 }
 
-#content table.listing td, #content table.listing th {
+/*
+#content table.listing td {
 	border-left: 1px solid #666;
 	border-right: 1px solid #666;
-	border-bottom: 1px solid #ccc;
 	border-top: 1px solid #ccc;
 }
+*/
 
-#content table.grid th, #content table.vertical th, #content table.listing th{
+#content table.grid th, #content table.vertical th, table.listing th{
 	background-color: #eee;
 	font-weight: normal;
 	font-style: italic;
@@ -390,6 +395,7 @@ div.eventDetails td ul {
 #content table.grid th {
 	border-bottom: 3px solid #666;
 }
+
 
 #content table.vertical {
 	border-bottom: 3px solid #666;
