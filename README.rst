@@ -17,20 +17,27 @@ xhtml source produced by plone, and made the CSS by the trial and error method.
 Install
 -------
 
-You can install this theme in Plone using buildout. Just add ``plonetheme.fui``
-to ``buildout.cfg``::
+You can install this theme in Plone using buildout.
 
-    [buildout]
-    ...
-    eggs =
-        ...
-        plonetheme.fui
+    1. Add ``plonetheme.fui`` to ``buildout.cfg``::
 
-    [instance]
-    ...
-    zcml = 
+        [buildout]
         ...
-        plonetheme.fui
+        eggs =
+            ...
+            plonetheme.fui
+
+        [instance]
+        ...
+        zcml = 
+            ...
+            plonetheme.fui
+
+    2. Run (maybe backup first..)::
+
+        ~$ buildout -n
+
+    3. Install the plugin using *Site Setup* in your Plone site.
 
 
 
