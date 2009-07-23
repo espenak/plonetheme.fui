@@ -288,9 +288,15 @@ ul.navTreeLevel0 {
 	color: #333;
 }
 
-#content h1.documentFirstHeading {
+#content h1{
 	font-family: "Georgia", serif;
 	font-weight: normal;
+	padding: 0;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	font-size: 2.4em;
+}
+#content h1.documentFirstHeading {
 	color: #00293D;
 	font-size: 2.8em;
 	margin: 0 0 20px 0;
@@ -304,7 +310,7 @@ ul.navTreeLevel0 {
 	font-family: "Georgia", serif;
 	font-weight: normal;
 	color: #333;
-	font-size: 2.0em;
+	font-size: 1.8em;
 	margin-top: 40px;
 	margin-bottom: 20px;
 	padding: 0;
@@ -317,12 +323,21 @@ ul.navTreeLevel0 {
 	font-family: "Georgia", serif;
 	font-weight: normal;
 	color: #000;
-	font-size: 1.6em;
+	font-size: 1.4em;
 	margin-top: 25px;
 	margin-bottom: 20px;
 	padding: 0;
 }
 #content h3 a {
+	color: #000;
+}
+
+#content h4 {
+	color: #000;
+	font-size: 1.2em;
+	padding: 0;
+}
+#content h4 a {
 	color: #000;
 }
 
@@ -332,11 +347,12 @@ ul.navTreeLevel0 {
 }
 
 
-pre, #content span.pre {
+pre, #content span.pre, #content code {
 	font-family: "Monaco", "Lucida Console", monospace;
+	color: #200;
 }
 
-#content span.pre {
+#content span.pre, #content code {
 	border: 1px solid #ccc;
 	padding: 1px 3px 1px 3px;
 	background-color: #eee;
