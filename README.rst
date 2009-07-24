@@ -9,7 +9,7 @@ Plone theme written for *Fagutvalget ved Institutt for informatikk*
     - http://github.com/espenak/plonetheme.fui/
 
 The only file I have modified from the default plone3 theme, except some minor
-adjustments to ``setup.py``, is
+adjustments to ``setup.py`` and ``main_template.pt``, is
 ``plonetheme/fui/browser/stylesheets/main.css``. I have simply inspected the
 xhtml source produced by plone, and made the CSS by the trial and error method.
 
@@ -39,6 +39,14 @@ You can install this theme in Plone using buildout.
 
     3. Install the plugin using *Site Setup* in your Plone site.
 
+
+
+Getting the dynamic click-to-edit feature back
+----------------------------------------------
+
+This feature is disabled with a tal definition in
+``plonetheme/fui/skins/plonetheme_fui_custom_templates/main_template.pt``. To
+re-enable it, you can simply remove the entire file.
 
 
 Release a new version (for developers)
