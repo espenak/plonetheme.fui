@@ -39,6 +39,14 @@ You can install this theme in Plone using buildout.
 
     3. Install the plugin using *Site Setup* in your Plone site.
 
+    4. Add the following lines at the end of the Styles box in
+       ``Site setup --> Visual editor --> Config``::
+       
+           Image float left|img|float-left
+           Image float right|img|float-right
+           Bordered image float left|img|bordered-float-left
+           Bordered image float right|img|bordered-float-right
+
 
 
 Getting the dynamic click-to-edit feature back

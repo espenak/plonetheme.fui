@@ -421,10 +421,20 @@ dl#document-toc li {
 
 
 /* Images */
-#content img.image-right {
-	border: 1px solid #000;
-	margin: 10px;
+#content img.float-right, #content img.bordered-float-right {
+	margin: 0 0 20px 20px;
 	float: right;
+	clear: both;
+}
+
+#content img.float-left, #content img.bordered-float-left {
+	margin: 0 20px 20px 0;
+	float: left;
+	clear: both;
+}
+
+#content img.bordered-float-right, #content img.bordered-float-left {
+	border: 1px solid #000;
 }
 
 
