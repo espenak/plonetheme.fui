@@ -48,6 +48,12 @@ You can install this theme in Plone using buildout.
            Bordered image float right|img|bordered-float-right
 
 
+Code syntax highlighting
+------------------------
+
+The theme loads prettify.js (http://code.google.com/p/google-code-prettify/).
+Add the *prettify* class to your <pre> blocks to get syntax hightlighting.
+
 
 Getting the dynamic click-to-edit feature back
 ----------------------------------------------
@@ -57,9 +63,18 @@ This feature is disabled with a tal definition in
 re-enable it, you can simply remove the entire file.
 
 
-Release a new version (for developers)
---------------------------------------
+
+
+For developers
+--------------
 
 Release a new version to pypi.python.org with::
 
     ~$ python setup.py egg_info -RDb "" sdist upload
+
+
+You can run plone in the foreground with:
+
+    ~$ plonectl fg
+
+Note that resources are not added unless you reinstall the product.

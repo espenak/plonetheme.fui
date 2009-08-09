@@ -63,7 +63,7 @@
 
   <body tal:attributes="class string:${here/getSectionFromURL} template-${template/id};
 	  dir python:test(isRTL, 'rtl', 'ltr')"
-		tal:define="kss_inline_editable python:False;">
+		tal:define="kss_inline_editable python:False;" onload="prettyPrint()">
     <div id="visual-portal-wrapper">
 
       <div id="portal-top" i18n:domain="plone">

@@ -50,4 +50,10 @@
       layer=".interfaces.IThemeSpecific"
       />
 
+  <browser:resourceDirectory
+      name="plonetheme.fui.javascripts"
+      directory="javascripts"
+      layer=".interfaces.IThemeSpecific"
+      />
+
 </configure>
