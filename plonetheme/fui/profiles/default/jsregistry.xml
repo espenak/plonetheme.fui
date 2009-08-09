@@ -26,7 +26,7 @@
 
  <javascript
     id="++resource++plonetheme.fui.javascripts/prettify.js"
-    cacheable="True" compression="safe" cookable="True"
+    cacheable="True" compression="none" cookable="False"
 	enabled="True" inline="False"/>
 
 </object>
