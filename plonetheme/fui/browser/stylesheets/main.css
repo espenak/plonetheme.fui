@@ -739,9 +739,10 @@ div.documentEditable .contentActions {
 
 div.listingBar a {
 	padding: 2px;
-	color: #999;
+	color: #777;
 	font-size: 0.9em;
 	margin-left: 20px;
+	font-weight: bold;
 }
 div.listingBar a:hover {
 	text-decoration: underline;
