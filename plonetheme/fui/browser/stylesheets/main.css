@@ -774,3 +774,25 @@ div.listingBar {
 	margin: 0;
 	padding: 0;
 }
+
+
+/* Event. */
+dl.portletEvents dd.portletItem {
+	margin-bottom: 10px;
+}
+
+dl.portletEvents dd.portletItem a:hover {
+	background-color: #dee7ec
+}
+
+/* Event details. */
+dl.portletEvents dd.portletItem a span.portletItemDetails {
+	font-size: 0.9em;
+	display: block;
+	color: #888;
+}
+
+
+dl.portletEvents dd.portletFooter {
+	display: none;
+}
