@@ -281,14 +281,15 @@ ul.navTreeLevel0 {
 
 
 
+/*
 #portal-column-content dd {
 	padding: 0;
 	margin: 0 0 0 25px;
 	font-size: 0.9em;
 	color: #333;
-}
+}*/
 
-#content h1{
+h1{
 	font-family: "Georgia", serif;
 	font-weight: normal;
 	padding: 0;
@@ -296,17 +297,17 @@ ul.navTreeLevel0 {
 	margin-bottom: 20px;
 	font-size: 2.4em;
 }
-#content h1.documentFirstHeading {
+h1.documentFirstHeading {
 	color: #00293D;
 	font-size: 2.8em;
 	margin: 0 0 20px 0;
 	padding: 0;
 }
-#content h1 a {
+h1 a {
 	color: #00293D;
 }
 
-#content h2 {
+h2 {
 	font-family: "Georgia", serif;
 	font-weight: normal;
 	color: #333;
@@ -315,11 +316,11 @@ ul.navTreeLevel0 {
 	margin-bottom: 20px;
 	padding: 0;
 }
-#content h2 a {
+h2 a {
 	color: #333;
 }
 
-#content h3 {
+h3 {
 	font-family: "Georgia", serif;
 	font-weight: normal;
 	color: #000;
@@ -328,44 +329,44 @@ ul.navTreeLevel0 {
 	margin-bottom: 20px;
 	padding: 0;
 }
-#content h3 a {
+h3 a {
 	color: #000;
 }
 
-#content h4 {
+h4 {
 	color: #000;
 	font-size: 1.2em;
 	padding: 0;
 }
-#content h4 a {
+h4 a {
 	color: #000;
 }
 
 
-#content p.documentDescription {
+p.documentDescription {
 	font-style: italic;
 }
 
 
-pre, #content span.pre, #content code {
+pre, span.pre, code {
 	font-family: "Monaco", "Lucida Console", monospace;
 	color: #200;
 }
 
-#content span.pre, #content code {
+span.pre, code {
 	border: 1px solid #ccc;
 	padding: 1px 3px 1px 3px;
 	background-color: #eee;
 }
 
 
-#content blockquote, pre {
+blockquote, pre {
 	border-left: 6px solid #ccc;
 	padding: 5px 5px 5px 10px;
 	margin: 10px 0 10px 20px;
 }
 
-#content blockquote, p.discreet {
+blockquote, p.discreet {
 	color: #333;
 	font-size: 0.9em;
 }
@@ -401,39 +402,39 @@ dl#document-toc li {
 
 
 /* Event details */
-#content div.eventDetails {
+div.eventDetails {
 	margin: 10px 0 10px 0;
 }
-#content div.eventDetails td ul {
+div.eventDetails td ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
 	font-family: "Verdana", sans-serif;
 }
 
-#content div.eventDetails td ul li {
+div.eventDetails td ul li {
 	border: none;
 }
-#content div.eventDetails td ul li:hover {
+div.eventDetails td ul li:hover {
 	background: none;
 }
 
 
 
 /* Images */
-#content img.float-right, #content img.bordered-float-right {
+img.float-right, #content img.bordered-float-right {
 	margin: 0 0 20px 20px;
 	float: right;
 	clear: both;
 }
 
-#content img.float-left, #content img.bordered-float-left {
+img.float-left, #content img.bordered-float-left {
 	margin: 0 20px 20px 0;
 	float: left;
 	clear: both;
 }
 
-#content img.bordered-float-right, #content img.bordered-float-left {
+img.bordered-float-right, #content img.bordered-float-left {
 	border: 1px solid #000;
 }
 
@@ -441,7 +442,7 @@ dl#document-toc li {
 
 /* Tables */
 
-#content table, table.listing {
+table, table.listing {
 	border-spacing: 0;
 	border-collapse: collapse;
 	font-size: 0.9em;
@@ -449,44 +450,44 @@ dl#document-toc li {
 	margin: 10px 0 10px 0;
 }
 
-#content table td, #content table th, table.listing td, table.listing th {
+table td, #content table th, table.listing td, table.listing th {
 	padding: 5px;
 }
 
-#content table.grid, table.listing {
+table.grid, table.listing {
 	border: 1px solid #666;
 }
 
 
-#content table.grid td, #content table.grid th, table.listing td, table.listing th  {
+table.grid td, #content table.grid th, table.listing td, table.listing th  {
 	border: 1px solid #666;
 }
 
 /*
-#content table.listing td {
+table.listing td {
 	border-left: 1px solid #666;
 	border-right: 1px solid #666;
 	border-top: 1px solid #ccc;
 }
 */
 
-#content table.grid th, #content table.vertical th, table.listing th{
+table.grid th, #content table.vertical th, table.listing th{
 	background-color: #eee;
 	font-weight: normal;
 	font-style: italic;
 }
 
-#content table.grid th {
+table.grid th {
 	border-bottom: 3px solid #666;
 }
 
 
-#content table.vertical {
+table.vertical {
 	border-bottom: 3px solid #666;
 	border-top: 3px solid #666;
 }
 
-#content table tr:hover {
+table tr:hover {
 	color: #000;
 }
 
