@@ -760,20 +760,60 @@ div.listingBar {
  *
  *********************************************************/
 
-#portal-column-content dl.info {
-	border: 1px solid #555;
-	background-color: #ffffee;
-	padding: 5px;
+
+#portal-columns dl.portalMessage {
+	background-color:#FFFFE3;
+	border:1px solid #999966;
+	font-size:12px;
+	margin-bottom:1em;
+}
+#portal-columns dl.portalMessage a {
+	border:medium none !important;
+	color:black !important;
+	text-decoration:underline;
+}
+#portal-columns dl.portalMessage dt {
+	background-color:#999966;
+	color:White;
+	float:left;
+	font-weight:bold;
+	line-height:1.25em;
+	margin:0 0.5em 0 0;
+	padding:0.5em 0.75em;
+}
+#portal-columns dl.portalMessage dd {
+	line-height:1.25em;
+	margin:0;
+	padding:0.5em;
+}
+#portal-columns dl.warning {
+	border-color:#DD8800;
+}
+#portal-columns dl.warning dt {
+	background-color:#DD8800;
+}
+#portal-columns dl.error {
+	border-color:#DD0000;
+}
+#portal-columns dl.error dt {
+ 	background-color:#DD0000;
+}
+#portal-columns dl.warning {
+	border-color:#DD8800;
+}
+#portal-columns dl.warning dd {
+	background-color:#FFDD77;
+}
+#portal-columns dl.error {
+	border-color:#DD8800;
+}
+#portal-columns dl.error dd {
+	background-color:#FFDD77;
 }
 
-#portal-column-content dl.info dt {
-	margin-bottom: 5px;
-}
 
-#portal-column-content dl.info dd {
-	margin: 0;
-	padding: 0;
-}
+
+
 
 
 /* Event. */

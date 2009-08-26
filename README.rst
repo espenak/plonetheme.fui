@@ -55,15 +55,6 @@ The theme loads prettify.js (http://code.google.com/p/google-code-prettify/).
 Add the *prettify* class to your <pre> blocks to get syntax hightlighting.
 
 
-Getting the dynamic click-to-edit feature back
-----------------------------------------------
-
-This feature is disabled with a tal definition in
-``plonetheme/fui/skins/plonetheme_fui_custom_templates/main_template.pt``. To
-re-enable it, you can simply remove the entire file.
-
-
-
 
 For developers
 --------------
