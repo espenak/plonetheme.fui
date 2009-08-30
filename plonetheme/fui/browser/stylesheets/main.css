@@ -98,8 +98,12 @@ ul#portal-personaltools {
 	padding-right: 20px;
 }
 
-ul#portal-globalnav a, ul#portal-personaltools a {
-	color: #444;
+ul#portal-globalnav a {
+	color: #fff;
+	font-weight: bold;
+}
+ul#portal-personaltools a {
+	color: #888;
 }
 ul#portal-globalnav a:hover, ul#portal-personaltools a:hover {
 	text-decoration: underline;
@@ -141,6 +145,7 @@ table#portal-columns {
 	border-style: solid;
 	border-color: #ccc;
 	border-width: 0 1px 1px 1px;
+	margin-top: 0;
 }
 
 
@@ -387,12 +392,8 @@ dl#document-toc dt {
 	margin: 0;
 	font-size: 1.0em;
 }
-dl#document-toc ol {
-	margin: 0 0 0 20px;
-	padding: 0;
-}
 dl#document-toc ol.TOC1Digit {
-	margin: 0 0 0 5px;
+	margin: 0 0 0 30px;
 	padding: 0;
 }
 dl#document-toc li {
