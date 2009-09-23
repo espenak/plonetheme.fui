@@ -854,3 +854,12 @@ div.card {
 	margin: 20px;
 	text-align: center;
 }
+
+
+a.state-internal {
+	color: #444;
+}
+
+a.state-internally_published {
+	color: #4e9a06;
+}
