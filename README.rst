@@ -47,6 +47,21 @@ You can install this theme in Plone using buildout.
            Bordered image float left|img|bordered-float-left
            Bordered image float right|img|bordered-float-right
 
+    (5.) Add the following styles to the FCKeditor styles::
+
+        <Style name="Image float left" element="img">
+          <Attribute name="class" value="float-left" />
+        </Style>
+        <Style name="Image float right" element="img">
+          <Attribute name="class" value="float-right" />
+        </Style>
+        <Style name="Bordered image float left" element="img">
+          <Attribute name="class" value="bordered-float-left" />
+        </Style>
+        <Style name="Bordered image float right" element="img">
+          <Attribute name="class" value="bordered-float-right" />
+        </Style>
+
 
 Code syntax highlighting
 ------------------------

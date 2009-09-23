@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '2.1.8'
+version = '2.2'
 
 setup(name='plonetheme.fui',
       version=version,

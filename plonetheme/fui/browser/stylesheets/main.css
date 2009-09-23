@@ -163,9 +163,14 @@ dl.portlet dt.portletHeader a {
 
 
 dl.portlet dd.portletItem {
-	margin: 0 0 0 0;
+	margin: 0 0 10px 0;
 	padding: 0;
 }
+
+dl.portletNavigationTree dd.portletItem {
+	margin-bottom: 0;
+}
+
 dl.portlet dd.odd {
 }
 dl.portlet dd.even {
@@ -819,22 +824,33 @@ div.listingBar {
 
 
 /* Event. */
-dl.portletEvents dd.portletItem {
-	margin-bottom: 10px;
-}
-
-dl.portletEvents dd.portletItem a:hover {
-	background-color: #dee7ec
+dl.portletEvents dd.portletItem a:hover,
+dl.portletNews dd.portletItem a:hover{
+	background-color: #dee7ec;
 }
 
 /* Event details. */
-dl.portletEvents dd.portletItem a span.portletItemDetails {
+dd.portletItem a span.portletItemDetails {
 	font-size: 0.9em;
 	display: block;
 	color: #888;
 }
 
 
-dl.portletEvents dd.portletFooter {
+dl.portletEvents dd.portletFooter,
+dl.portletNews dd.portletFooter {
 	display: none;
+}
+
+
+
+
+/* Member search */
+div.card {
+	float: left;
+	position: relative;
+	border: 1px solid #ddd;
+	padding: 10px;
+	margin: 20px;
+	text-align: center;
 }
