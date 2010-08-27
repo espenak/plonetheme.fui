@@ -84,3 +84,9 @@ You can run plone in the foreground with:
     ~$ plonectl fg
 
 Note that resources are not added unless you reinstall the product.
+
+
+Tutorials on theme development might be found on http://plone.org, but I found these extra useful:
+
+- http://plone.org/documentation/kb/how-to-create-a-plone-3-theme-product-on-the-filesystem
+- http://plone.org/documentation/kb/how-to-install-a-3-x-theme-using-buildout
